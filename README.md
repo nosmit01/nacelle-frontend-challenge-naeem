@@ -18,7 +18,7 @@ This is a simple React application built by Naeem Smith (naeem.smith@gmail.com) 
 
 ## Directory structure
 - **components**: shareable components
-- **modules**: unique components, pages, or subsections that hold many components
+- **modules**: unique, larger components, or page subsections that hold many components
 - **redux**: global state management.
 
 ## Installation
