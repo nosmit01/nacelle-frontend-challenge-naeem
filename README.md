@@ -1,7 +1,6 @@
 # React Modal Component and Notification System
 
 This is a simple React application built with **TypeScript**, **Redux Toolkit**, and **React Testing Library** that demonstrates a modal component and notification system.
-A simple React application built with **TypeScript**, **Redux Toolkit**, and **React Testing Library**. This app allows users to manage a list of notifications with the ability to add, remove, and view them. It also includes full accessibility support and keyboard interaction.
 
 ## Notification System Features
 
