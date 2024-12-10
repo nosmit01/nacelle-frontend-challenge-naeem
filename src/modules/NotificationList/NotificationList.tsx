@@ -6,7 +6,7 @@ import Button from '../../components/Button/Button';
 import Notification from '../../components/Notification/Notification';
 import styles from './NotificationList.module.css';
 
-interface INotification {
+export interface INotification {
   id: string;
   message: string;
 }
@@ -16,7 +16,9 @@ const NotificationList: React.FC = () => {
   const notifications = useSelector((state: RootState) => state.notifications.notifications);
 
   const handleAddNotification = () => {
-    const notificationId = notifications.length + 1
+    // Ensuring to add a unique ID to the notification
+    const notificationId = notifications.length ?
+      parseInt(notifications[notifications.length - 1].id, 10) + 1 : 1;
     const newNotification: INotification = {
       id: notificationId.toString(),
       message: `Happy little notification ${notificationId}`,
