@@ -1,6 +1,6 @@
 # React Modal Component and Notification System
 
-This is a simple React application built with **TypeScript**, **Redux Toolkit**, and **React Testing Library** that demonstrates a modal component and notification system.
+This is a simple React application built by Naeem Smith (naeem.smith@gmail.com) for Nacelle. The app demonstrates a modal component and notification system and was created with **TypeScript**, **Redux Toolkit**, and **React Testing Library**.
 
 ## Notification System Features
 
