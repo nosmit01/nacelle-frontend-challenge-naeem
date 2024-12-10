@@ -6,15 +6,13 @@ This is a simple React application built with **TypeScript**, **Redux Toolkit**,
 
 - **Add Notifications**: Users can add a notification to the list.
 - **Remove Notifications**: Notifications can be removed by clicking on them or pressing the "Enter" key.
-- **Accessibility**: The app is fully accessible with ARIA roles, focus management, and screen reader support.
-- **Keyboard Navigation**: All interactive elements can be accessed and triggered using the keyboard.
+- **Accessibility**: The app accessible with ARIA roles, screen reader support, and interactive elements can be accessed and triggered using the keyboard.
 - **Redux State Management**: Notifications are managed in a Redux store with the help of Redux Toolkit.
-- **Responsive**: The app is styled to be responsive and works well on both desktop and mobile devices.
 
 ## Modal Component Features
 
 - **Modal with Focus Management**: Focus is trapped inside the modal when it is open, ensuring that keyboard users stay within the modal.
-- **Accessibility Support**: The modal is fully accessible with ARIA roles and attributes (`role="dialog"`, `aria-modal="true"`, `aria-labelledby`, etc.).
+- **Accessibility Support**: The modal is accessible with ARIA roles and attributes (`role="dialog"`, `aria-modal="true"`, `aria-labelledby`, etc.).
 - **Keyboard Navigation**: Supports `Tab`, `Shift+Tab` for cycling through modal elements and the `Escape` key to close the modal.
 - **Backdrop Click**: Clicking on the backdrop closes the modal.
 
