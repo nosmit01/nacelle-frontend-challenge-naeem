@@ -16,6 +16,11 @@ This is a simple React application built by Naeem Smith (naeem.smith@gmail.com) 
 - **Keyboard Navigation**: Supports `Tab`, `Shift+Tab` for cycling through modal elements and the `Escape` key to close the modal.
 - **Backdrop Click**: Clicking on the backdrop closes the modal.
 
+## Directory structure
+- **components**: shareable components
+- **modules**: unique components, pages, or subsections that hold many components
+- **redux**: global state management.
+
 ## Installation
 
 Follow these steps to set up the application locally.
