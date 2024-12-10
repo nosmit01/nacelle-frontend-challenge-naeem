@@ -28,6 +28,9 @@ git clone git@github.com:nosmit01/nacelle-frontend-challenge-naeem.git
 In the project directory, you can run:
 ### `yarn install`
 
+If you run into a node version issue, then run:
+### `nvm use` which will pick up the version in the .nvmrc file, then run `yarn install` again
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
