@@ -6,7 +6,7 @@ This is a simple React application built by Naeem Smith (naeem.smith@gmail.com) 
 
 - **Add Notifications**: Users can add a notification to the list.
 - **Remove Notifications**: Notifications can be removed by clicking on them or pressing the "Enter" key.
-- **Accessibility**: The app accessible with ARIA roles, screen reader support, and interactive elements can be accessed and triggered using the keyboard.
+- **Accessibility**: The app is accessible with ARIA roles, screen reader support, and interactive elements that can be accessed and triggered using the keyboard.
 - **Redux State Management**: Notifications are managed in a Redux store with the help of Redux Toolkit.
 
 ## Modal Component Features
